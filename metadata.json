@@ -1,0 +1,17 @@
+{
+  "name": "tkh-ca_certificates",
+  "version": "0.1.0",
+  "author": "st01tkh",
+  "summary": "Setup valid/updated CA Certificates",
+  "license": "Apache 2.0",
+  "source": "https://github.com/st01tkh/puppet-ca_certificates.git",
+  "project_page": "https://github.com/st01tkh/puppet-ca_certificates",
+  "issues_url": "https://github.com/st01tkh/puppet-ca_certificates/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppet-download_file","version_requirement":">= 1.0.0"},
+    {"name":"tkh-recursive_directory","version_requirement":">= 0.1.0"},
+    {"name":"badgerious-windows_env","version_requirement":">=0.0.1"}
+  ]
+}
+
